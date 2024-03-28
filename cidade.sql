@@ -46,6 +46,11 @@ VALUES
 
 UPDATE `Alunos` SET `Cidade`="Sumaré" WHERE 1=1;
 
+
+UPDATE `Alunos` SET `Estado`= "SP" WHERE ID in (1,2,3,4,5);
+UPDATE `Alunos` SET `Cidade`= "Sumaré" WHERE ID in (1,2,3,4,5);
+
+
 SELECT * FROM `Alunos` ORDER BY ID;
 SELECT * FROM `Alunos` ORDER BY Estado;
 SELECT * FROM `Alunos` ORDER BY Idade;
